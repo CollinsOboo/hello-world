@@ -1,0 +1,44 @@
+ls
+ls -a
+ls directoryname
+mkdir directoryname
+touch filename.exe
+rm filename.exe
+rm -rf filename.exe
+cd
+cd ..
+git init
+git status
+git add filename.exe
+git add .
+git restore --staged filename.exe
+git restore --staged .
+git commit -m "some change"
+git log
+git reset commit-hash-id
+git stash
+git stash pop
+git stash clear
+
+vi filename.exe
+cat filename.exe
+
+git remote -v
+git remote add origin url
+git push origin master
+
+git branch feature
+git checkout feature
+git merge feature
+--fork
+git clone url
+git remote add upstream url
+--pull request
+git push origin feature -f //to update origin with reset commits
+--merge pull requests
+--fetch upstream
+git checkout main
+git fetch --all --prune / git pull upstream main
+git push origin main
+git reset --hard upstream/main
+git push origin main
