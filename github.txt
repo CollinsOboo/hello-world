@@ -25,7 +25,7 @@ cat filename.exe
 
 git remote add origin url
 git remote -v
-git push orign master
+git push origin master
 
 git branch feature
 git checkout feature
